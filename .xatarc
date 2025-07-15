@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Hitarth-Chauhan-s-workspace-c5o0nh.eu-west-1.xata.sh/db/hrc_snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
