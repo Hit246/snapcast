@@ -17,12 +17,6 @@ const validate = aj
     shield({
       mode: "LIVE",
     })
-  )
-  .withRule(
-    detectBot({
-      mode: "LIVE",
-      allow: ["CATEGORY:SEARCH_ENGINE", "G00G1E_CRAWLER"],
-    })
   );
 
 export default createMiddleware(validate);
